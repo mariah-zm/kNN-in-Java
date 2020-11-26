@@ -1,0 +1,9 @@
+<Data type for each feature separated by the same delimiter. Possible data types: Numerical, Binary, Nominal and Ordinal>
+<Feature names separated by the same delimiter. DO NOT INCLUDE CLASS NAME>
+<Sample 1: The values for each attirbute separated by the same delimiter followed by target class>
+<Sample 2: The values for each attirbute separated by the same delimiter followed by target class>
+<Sample 3: The values for each attirbute separated by the same delimiter followed by target class>
+<Sample 4: The values for each attirbute separated by the same delimiter followed by target class>
+.
+.
+.

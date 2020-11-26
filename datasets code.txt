@@ -1,0 +1,38 @@
+// Loading Iris data and creating dataset
+List<List<String>> irisData = fManager.readData("iris.txt", ",");
+Dataset iris = new Dataset(irisData, 3);
+// Performing kNN
+System.out.println("Doing kNN on Iris Dataset . . .");
+List<Double> irisResults = knn.kNN(1, iris, 0.67);
+System.out.println("\n" + fManager.results(iris, irisResults));
+fManager.writeResults("iris_results1.txt", iris, knn.getPredictedClasses(), irisResults);
+
+
+// Loading Diabetes data and creating dataset
+List<List<String>> diabetesData = fManager.readData("diabetes.txt", ",");
+Dataset diabetes = new Dataset(diabetesData, 2);
+// Performing kNN
+System.out.println("\nDoing kNN on Diabetes Dataset . . .");
+List<Double> diabetesResults = knn.kNN(1, diabetes, 0.67);
+System.out.println("\n" + fManager.results(diabetes, diabetesResults));
+fManager.writeResults("diabetes_results1.txt", diabetes, knn.getPredictedClasses(), diabetesResults);
+
+
+// Loading Contraceptive Method Choice data and creating dataset
+List<List<String>> cmcData = fManager.readData("contraceptives.txt", ",");
+Dataset cmc = new Dataset(cmcData, 3);
+// Performing kNN
+System.out.println("\nDoing kNN on CMC Dataset . . .");
+List<Double> cmcResults = knn.kNN(1, cmc, 0.67);
+System.out.println("\n" + fManager.results(cmc, cmcResults));
+fManager.writeResults("cmc_results1.txt", cmc, knn.getPredictedClasses(), cmcResults);
+
+
+// Loading Eye State data and creating dataset
+List<List<String>> eyestateData = fManager.readData("eyestate.txt", ",");
+Dataset eyestate = new Dataset(eyestateData, 2);
+// Performing kNN
+System.out.println("\nDoing kNN on Eye State Dataset . . .");
+List<Double> eyestateResults = knn.kNN(1, eyestate, 0.67);
+System.out.println("\n" + fManager.results(eyestate, eyestateResults));
+fManager.writeResults("eyestate_results1.txt", eyestate, knn.getPredictedClasses(), eyestateResults);
