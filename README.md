@@ -4,7 +4,7 @@ This project was an assignment for the study unit ICS2207, Machine Learning: Int
 
 *Note that in this implementation the distance metrics of choice were Euclidean Distance for numerical and ordinal data, and Hamming Distance for nominal and binary data. The combination of these distances is weighted.*
 
-## Further Enhancements
+## Future Enhancements
 
 Currently, this implementation of the algorithm only contains 2 different types of Distance Metrics, and doesn't contain any features for data pre-processing. In the future I plan to revisit this project, and:
 - Fix any issues and which may be present
