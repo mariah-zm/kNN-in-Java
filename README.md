@@ -7,7 +7,7 @@ This project was an assignment for the study unit ICS2207, Machine Learning: Int
 ## Future Enhancements
 
 Currently, this implementation of the algorithm only contains 2 different types of Distance Metrics, and doesn't contain any features for data pre-processing. In the future I plan to revisit this project, and:
-- Fix any issues and which may be present
+- Fix any issues which may be present
 - Add unit tests
 - Add more distance metrics
 - Add Feature Selection methods
@@ -17,7 +17,7 @@ Currently, this implementation of the algorithm only contains 2 different types 
 
 #### Using your own dataset
 
-Currently, the main class performs kNN on the Eye State Dataset. This implementation comes along with another 3 datasets which mentioned in the previous section.
+Currently, the main class performs kNN on the Eye State Dataset. This implementation comes along with another 3 datasets.
 To use this model on another dataset, open the project folder in an IDE and amend the Main class as follows:
 
 - If you would like to use one of the mentioned 4 datasets, the project folder contains a text file with snippets of code that may be put in the Main class instead of the code currently in place.
